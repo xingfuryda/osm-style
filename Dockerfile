@@ -68,3 +68,5 @@ ADD narrowStyleTabs.py /home/root/openstreetmap-carto-vector-tiles
 RUN python /home/root/openstreetmap-carto-vector-tiles/narrowStyleTabs.py
 ADD patchtilelive.py /home/root/openstreetmap-carto-vector-tiles
 RUN python /home/root/openstreetmap-carto-vector-tiles/patchtilelive.py
+ADD patchTemplates.py /home/root/openstreetmap-carto-vector-tiles
+RUN python /home/root/openstreetmap-carto-vector-tiles/patchTemplates.py

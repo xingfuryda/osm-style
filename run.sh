@@ -55,6 +55,8 @@ preparestyling () {
 	rm -rfv /home/root/projects/*
 	echo "copying project folder..."
 	cp -R /home/root/openstreetmap-carto-vector-tiles/ /home/root/projects/
+	cp -R /usr/share/fonts/ /home/root/projects/fonts-for-windows/	
+	
 	cd /home/root/projects/openstreetmap-carto-vector-tiles
 	
 	# insert the PostgreSQL connection params
